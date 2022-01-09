@@ -6,14 +6,13 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-    
+    overflow: auto;
   }
 
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 20px 200px;
+    padding: 20px 250px;
     background-color: #1F2937;
     text-align: center;
 }
@@ -47,8 +46,8 @@ ul{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 70px 200px;
-    
+    padding: 50px 250px;
+    gap: 16px;
 }
 
 .title{
@@ -57,7 +56,7 @@ ul{
     font-weight: 800;
     color: #F9FAF8;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 .subtext{
     display: flex;
@@ -66,7 +65,7 @@ ul{
     color: #E5E7EB;
 }
 
-button{
+.signup-button button{
     display: flex;
     background-color: #3882f6;
     box-sizing: border-box;
@@ -80,7 +79,109 @@ button{
 }
 
 #guitarmain{
-    height: 175px;
+    height: 270px;
     width: 400px;
 }
 
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 1em;
+}
+
+.upper-content{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+    gap: 25px;
+}
+
+.upper-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.images-subtexts{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 300px;
+    background-color: #E5E7EB;
+}
+
+#quote-text{
+  font-size: 28px;
+  font-style: italic;
+  color: #3a4353;
+  font-weight:lighter;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#quote-source{
+    text-align: end;
+    font-weight: 600;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 300px;
+    
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    padding: 40px 100px;
+    gap: 60px;
+    background-color: #3882f6;
+    color: #F9FAF8;;
+    font-weight: 600;
+    font-size: 19px;
+    border-radius: 1em;
+}
+
+#subscribe-subtext{
+    font-size: 15px;
+    font-weight: normal;
+    color: #E5E7EB;
+}
+
+.subscribe-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#subscribe-button button{
+    background-color: #3882f6;
+    box-sizing: border-box;
+    width: 8em;
+    height: 2em;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.copyright p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #1F2937;
+    height: 80px;
+    color: #F9FAF8;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+}
